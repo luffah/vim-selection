@@ -1,0 +1,6 @@
+selection	selection.txt	/*selection*
+selection#Status()	selection.txt	/*selection#Status()*
+selection#getSelectedText()	selection.txt	/*selection#getSelectedText()*
+selection#vgetSelectedText()	selection.txt	/*selection#vgetSelectedText()*
+selection-functions	selection.txt	/*selection-functions*
+selection.vim	selection.txt	/*selection.vim*

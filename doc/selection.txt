@@ -1,0 +1,25 @@
+*selection.vim*      Get the selected text (visual mode)
+                                                               *selection*
+
+License:     GPLv3 (see LICENSE)
+Author(s):   luffah
+
+Library to retrieve the selected text from visual mode, whatever the
+mode (v, V, <C-v> used as square selection).
+
+==============================================================================
+FUNCTIONS                                            *selection-functions*
+
+selection#vgetSelectedText()                 *selection#vgetSelectedText()*
+    Return the selected text (string) while visual mode is activated.
+
+selection#getSelectedText()                  *selection#getSelectedText()*
+    Return the selected text (string).
+
+selection#Status()                                   *selection#Status()*
+    Return a string showing the selection size according to its type:
+    - full line (V) : (line width, selection height)
+    - square (<C-v>) : (selection width, selection height)
+    - per character (v) : number of characters selected
+
+ vim:tw=78:ts=8:ft=help:norl:
